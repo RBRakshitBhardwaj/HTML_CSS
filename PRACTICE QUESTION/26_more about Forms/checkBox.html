@@ -6,11 +6,52 @@
     <title>Document</title>
 </head>
 <body>
+
+
+    <!-- checked attribute is  a boolean attribute -->
     <form action="/server">
-        <input type="checkbox" name="age" value="valid" id="age" checked >
-        <!-- on giving value , valid will go server -->
-        <label for="age">i am 18+</label>
-        <button type="submit">click here</button>
+        <input type="checkbox" name="age" id="age" checked value="he is 18 +">
+
+        <label for="like">I am 18+ :</label>
+        <button type="submit">Submit</button>
+
+        <!-- checkbox mdn -->
+        <div>
+            <h4>choose your subject :</h4>
+            <input type="checkbox" name="sub" id="math" value="mat">
+            <label for="math">math</label><br>
+            <input type="checkbox" name="sub" id="science" value="scie">
+            <label for="science">science</label><br>
+            <input type="checkbox" name="sub" id="computer" value="comp">
+            <label for="computer">computer</label><br>
+        </div>
+
+        <div>
+            <h3>select your gender</h3>
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="male" value="M"><br>
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="female" value="F"><br>
+        </div>
+
+
+        <div>
+            <!-- select tag -->
+            
+            <label for="nation">Nationality</label>
+            <select name="s1" id="nation" size="2" multiple>
+                <option value="USA">America</option>
+                <option value="india" selected>bharat</option>
+                <option value="pak">pakistan</option>
+            </select>
+        </div>
     </form>
+
+
+
+
+
+
+
 </body>
 </html>
